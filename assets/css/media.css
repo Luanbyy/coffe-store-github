@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 300px) and (max-width: 449px) {
+    main .our-menu .itens-container {
+        justify-content: center;
+    }
+    
+    main .our-menu .itens-container .café-item {
+        width: 330px;
+    }
+
+    main .our-products .products-container .product-item {
+        padding: 80px 60px 10px 60px;
+    }
+
+    main .client-analysis .clients-container .client {
+        flex: 0 1 330px;
+        padding: 80px;
+    }
+
+    main .our-blog .blog-info-container .blog {
+        width: 330px;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 580px) {
+    main .our-menu .itens-container {
+        justify-content: center;
+    }
+
+    main .our-menu .itens-container .café-item {
+        width: 410px;
+    }
+    main .our-products .products-container .product-item {
+        padding: 80px 100px 10px 100px;
+    }
+
+    main .client-analysis .clients-container .client {
+        width: 410px;
+    }
+
+    main .our-blog .blog-info-container .blog {
+        width: 410px;
+    }
+}
+
+@media screen and (min-width: 581px) and (max-width: 819px) {
+    main .our-menu .itens-container {
+        justify-content: center;
+    }
+
+    main .our-menu .itens-container .café-item {
+        width: 510px;
+    }
+}
+    
+
+@media screen and (max-width: 819px) {
+    main .contacts .contacts-container .iframe  {
+        display: none;
+    }
+
+    main .contacts .contacts-container .forms-contacts-container {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 722px) {
+    .background .description_top_page {
+        max-width: 500px;
+        margin: 230px 30px 68px 68px;
+    }
+
+    .background .description_top_page #café-topo1 h1 {
+        font: normal bold 4em sans-serif;
+        text-transform: uppercase;
+    }
+
+}
+
+@media screen and (min-width: 820px) and (max-width: 1070px) {
+    main .our-menu .itens-container .café-item {
+        width: calc(100%/2);
+    }
+}
+
+/* Menu */
+@media screen and (max-width: 881px) {
+    .background #inicio #menu100 {
+        display: none;
+    }
+
+    .background #inicio .img-box i {
+        display: block;
+    }
+    
+    .background #inicio .img-box nav ul {
+        display: flex;
+    }
+}
+/* */
+
+@media screen and (min-width: 723px) and (max-width: 881px) {
+    .background .description_top_page {
+        max-width: 615px;
+        margin: 230px 30px 68px 68px;
+    }
+
+    .background .description_top_page #café-topo1 h1 {
+        font: normal bold 5em sans-serif;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    main .about-us {
+        display: block;
+        margin: 50px auto 0px auto;
+        width: 70%;
+    }
+
+    main .about-us .description-coffe {
+        display: flex;
+        flex-flow: column;
+    }
+
+    main .about-us .description-coffe .img-café {
+        margin: 30px;
+    }
+
+    main .about-us .description-coffe .img-café img {
+        width: 100%;
+    }
+
+    main .about-us .description-coffe .description {
+        min-height: auto;
+        max-width: 704px;
+    }
+}
